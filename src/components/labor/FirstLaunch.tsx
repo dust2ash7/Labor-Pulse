@@ -19,7 +19,7 @@ export function FirstLaunch() {
       {step === 1 ? (
         <>
           <h1 className="mt-6 max-w-[14ch] text-[2.15rem] font-semibold leading-[1.15] tracking-tight">
-            A dim-room companion for the wave.
+            A quiet companion for the wave.
           </h1>
           <p className="mt-6 max-w-[34ch] text-[18px] leading-relaxed text-muted">
             {DISCLAIMER}

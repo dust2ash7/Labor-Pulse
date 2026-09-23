@@ -23,7 +23,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "A dim-room labor companion. Time contractions, breathe the peak, and know when to call.",
+          "A quiet labor companion from Raven Flock. Time contractions, breathe the peak, and know when to call.",
       },
       { name: "theme-color", content: "#0E1014" },
       { name: "apple-mobile-web-app-capable", content: "yes" },

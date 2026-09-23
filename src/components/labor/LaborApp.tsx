@@ -87,7 +87,8 @@ export function LaborApp() {
       <PhoneFrame>
         <div className="flex min-h-dvh flex-col justify-end px-6 pb-16">
           <p className="text-[13px] uppercase tracking-[0.18em] text-action">Labor Pulse</p>
-          <p className="mt-3 text-[28px] font-semibold tracking-tight">Dim room. One thumb.</p>
+          <p className="mt-3 text-[28px] font-semibold tracking-tight">Raven Flock</p>
+          <p className="mt-2 text-[15px] text-muted">Consider the ravens.</p>
         </div>
       </PhoneFrame>
     );
