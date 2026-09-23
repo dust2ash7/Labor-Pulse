@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="public/brand/logo-c.png" alt="Raven Flock" width="280" />
+</p>
+
+<p align="center"><strong>Raven Flock — Consider the ravens.</strong></p>
+
+---
+
 # Labor Pulse
 
 A quiet labor companion from **Raven Flock**. Time the wave, breathe the peak, change position, and pack a hospital bag.
