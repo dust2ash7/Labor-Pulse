@@ -10,6 +10,8 @@
 
 A quiet labor companion from **Raven Flock**. Time the wave, breathe the peak, change position, and pack a hospital bag.
 
+**Live:** [Raven Flock studio — Labor Pulse](https://dust2ash7.github.io/raven-flock/#labor-pulse)
+
 Timing is a pattern guess. Dilation, water, bleeding, and baby movement matter more. Call your midwife or hospital if anything feels wrong. Not a medical device.
 
 Logs stay on the phone. Nothing is sent unless you share a card.
