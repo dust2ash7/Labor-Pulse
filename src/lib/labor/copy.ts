@@ -7,6 +7,7 @@ import type {
   SuggestedStage,
   WavePhase,
 } from "./types";
+import { publicAsset } from "../public-asset";
 
 export const DISCLAIMER =
   "Timing is a pattern guess. Dilation, water, bleeding, and baby movement matter more. Call your midwife or hospital if anything feels wrong.";
@@ -143,37 +144,37 @@ export const GUIDE_POSITIONS: Record<
     name: "Standing forward lean",
     what: "Forearms on a counter, wall, or partner. Soft knees. Belly hangs. Sway if it helps.",
     when: "Early labor, or anytime standing feels better than sitting.",
-    image: "/positions/forward-lean.jpg",
+    image: publicAsset("/positions/forward-lean.jpg"),
   },
   "birth-ball": {
     name: "Birth ball",
     what: "Sit tall on the ball, feet flat and wide. Small circles between waves.",
     when: "Early labor while you still want rhythm. Stop if it makes you dizzy.",
-    image: "/positions/birth-ball.jpg",
+    image: publicAsset("/positions/birth-ball.jpg"),
   },
   "hands-knees": {
     name: "Hands and knees",
     what: "Hands under shoulders, knees wide, long spine. Rock or stay still through the wave.",
     when: "Back labor, or when you want room for the baby to turn.",
-    image: "/positions/hands-knees.jpg",
+    image: publicAsset("/positions/hands-knees.jpg"),
   },
   "kneeling-lean": {
     name: "Kneeling lean on bed",
     what: "Kneel on a pad, fold the upper body onto the mattress, let the hips get heavy.",
     when: "Active labor when standing is too much but you still want to be upright-ish.",
-    image: "/positions/kneeling-lean.jpg",
+    image: publicAsset("/positions/kneeling-lean.jpg"),
   },
   "side-lying": {
     name: "Side-lying rest",
     what: "On your side, pillow or peanut between the knees, top knee a little forward.",
     when: "Between stacked waves, overnight, or with an epidural.",
-    image: "/positions/side-lying.jpg",
+    image: publicAsset("/positions/side-lying.jpg"),
   },
   "supported-squat": {
     name: "Supported squat",
     what: "Heels down if you can, knees open, hold a partner or bed rail. Do not bounce.",
     when: "Later first stage and pushing if legs feel strong and baby is low.",
-    image: "/positions/supported-squat.jpg",
+    image: publicAsset("/positions/supported-squat.jpg"),
   },
 };
 
