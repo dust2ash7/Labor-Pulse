@@ -6,6 +6,7 @@ import {
 } from "@tanstack/react-router";
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
+import { publicAsset } from "@/lib/public-asset";
 import appCss from "../styles.css?url";
 
 const APP_NAME = "Labor Pulse";
@@ -32,10 +33,10 @@ export const Route = createRootRoute({
       { name: "mobile-web-app-capable", content: "yes" },
     ],
     links: [
-      { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
+      { rel: "icon", type: "image/svg+xml", href: publicAsset("/favicon.svg") },
       { rel: "stylesheet", href: appCss },
-      { rel: "manifest", href: "/manifest.webmanifest" },
-      { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
+      { rel: "manifest", href: publicAsset("/manifest.webmanifest") },
+      { rel: "apple-touch-icon", href: publicAsset("/apple-touch-icon.png") },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       {
         rel: "preconnect",

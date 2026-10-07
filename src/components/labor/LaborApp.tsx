@@ -5,6 +5,7 @@ import { useLaborStore } from "@/lib/labor/store";
 import type { TabId } from "@/lib/labor/types";
 import { useClock } from "@/lib/labor/use-peak";
 import { cn } from "@/lib/utils";
+import { publicAsset } from "@/lib/public-asset";
 import { ActiveWave } from "./ActiveWave";
 import { BagsScreen } from "./BagsScreen";
 import { BreathScreen } from "./BreathScreen";
@@ -87,7 +88,7 @@ export function LaborApp() {
       <PhoneFrame>
         <div className="flex min-h-dvh flex-col justify-end px-6 pb-16">
           <img
-            src="/brand/logo-a.png"
+            src={publicAsset("/brand/logo-a.png")}
             width={96}
             height={96}
             alt="Raven Flock"
